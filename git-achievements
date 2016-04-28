@@ -369,7 +369,7 @@ function clean_logged_achievements() {
 
 function publish_achievements
 {
-    git_achievements="$(which git-achievements)"
+    git_achievements="/home/stepek/git/git-achievements/git-achievements"
     git_achievements_dir="$(dirname "${git_achievements}")"
     if [ -L "${git_achievements}" ]; then
       case "$(dirname $(readlink ${git_achievements}))" in
@@ -383,7 +383,7 @@ function publish_achievements
     fi
 
     cd "${git_achievements_dir}"
-
+    echo "${git_achievements_dir}"
     user=`git config --global user.name`
 
 echo "
@@ -401,7 +401,7 @@ echo "
     echo "<h2>${user}'s Git Achievements <img src='http://www.gravatar.com/avatar/${mailhash}'/></h2>" >> index.html
 
     # STATS
-    cat git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html
+    cat ~/git/git-achievements/git-achievements | grep 'unlock_achievement ' | grep -v ' sed ' | grep -v '\${' | sed -e 's/.*unlock_achievement //g' -e 's/^"//g' -e 's/"$//g' -e 's/\$power/X/g' -e 's/\$count/X/g' -e 's/\$hooks/X/g' | sort | awk -F"\" \"" '{ print "<li><div class=\"title\">" $1 "</div><div class=\"info\">" $2 "</div></li>" }' | link_to_git_docs > all.html
     total=`cat all.html | wc -l`
 
     unlockedCount=`clean_logged_achievements | awk '{ if (NR % 2 != 0) print $0 }' | sed -e 's/Apprentice //g' -e 's/Master //g' -e 's/(.*//g' | sort | uniq | wc -l`
