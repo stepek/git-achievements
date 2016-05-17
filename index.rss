@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Product Manager (Level 2)</title><description>Stash the changes in a dirty working directory away with git stash.</description></item>
 <item><title>Apprentice Seamstress (Level 2)</title><description>amended a commit with git commit --amend.</description></item>
 <item><title>Apprentice Carpenter (Level 1)</title><description>Custom git hooks are installed which help catch issues before they are shared.</description></item>
 <item><title>Apprentice Thug (Level 1)</title><description>Forced pushed a branch with git push -f</description></item>
