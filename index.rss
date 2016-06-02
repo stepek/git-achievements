@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Goldsmith (Level 1)</title><description>Reviewed patches before committing with git diff --cached.</description></item>
 <item><title>Apprentice Gardner (Level 1)</title><description>Shows the commit ancestry graph with git show-branch</description></item>
 <item><title>Dentist</title><description>Extracted patches using git log -p.</description></item>
 <item><title>Caretaker</title><description>Added a .gitignore file to a repository.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Weaver</title><description>Investigate old branches by using git reflog</description></item>
 <item><title>Apprentice Presenter (Level 1)</title><description>Shows one or more objects (blobs, trees, tags and commits) with git show</description></item>
 <item><title>Socialite (Level 4)</title><description>pushed a branch to a remote repository using git push</description></item>
-<item><title>Apprentice Cleaning lady (Level 3)</title><description>Remove untracked files from the working tree with git clean</description></item>
 </channel></rss>
