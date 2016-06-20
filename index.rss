@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Apprentice Gipsy (Level 2)</title><description>Create, list, delete a tag signed with GPG using git tag</description></item>
 <item><title>Apprentice Gipsy (Level 1)</title><description>Create, list, delete a tag signed with GPG using git tag</description></item>
 <item><title>Apprentice Butcher (Level 2)</title><description>Performed an interactive rebase using git rebase -i.</description></item>
 <item><title>Blacksmith (Level 5)</title><description>Created a branch using git checkout -b.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Apprentice Hunter (Level 1)</title><description>Used git bisect to perform a binary search to find which change introduced a bug.</description></item>
 <item><title>Apprentice Goldsmith (Level 1)</title><description>Reviewed patches before committing with git diff --cached.</description></item>
 <item><title>Apprentice Gardner (Level 1)</title><description>Shows the commit ancestry graph with git show-branch</description></item>
-<item><title>Dentist</title><description>Extracted patches using git log -p.</description></item>
 </channel></rss>
