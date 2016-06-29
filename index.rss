@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Collector (Level 5)</title><description>Fetches named heads or tags from another repository with git fetch</description></item>
 <item><title>Master Socialite (Level 7)</title><description>pushed a branch to a remote repository using git push</description></item>
 <item><title>Garage Inventor</title><description>Used a custom alias for a Git command</description></item>
 <item><title>Master Historian (Level 8)</title><description>Investigate the commit log using git log.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Thug (Level 4)</title><description>Forced pushed a branch with git push -f</description></item>
 <item><title>Blacksmith (Level 4)</title><description>Created a branch using git checkout -b.</description></item>
 <item><title>Stone Mason (Level 6)</title><description>Added files to the index area for inclusion in the next commit with git add</description></item>
-<item><title>Cherry Picker</title><description>Used git cherry-pick to add a sha from another branch into the current branch.</description></item>
 </channel></rss>
