@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Master Product Manager (Level 8)</title><description>Stash the changes in a dirty working directory away with git stash.</description></item>
 <item><title>Master Gipsy (Level 7)</title><description>Create, list, delete a tag signed with GPG using git tag</description></item>
 <item><title>Master Investigator (Level 7)</title><description>Used git blame to annotate a file with information about how each line changed.</description></item>
 <item><title>Investigator (Level 6)</title><description>Used git blame to annotate a file with information about how each line changed.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Master Blacksmith (Level 7)</title><description>Created a branch using git checkout -b.</description></item>
 <item><title>Butcher (Level 4)</title><description>Performed an interactive rebase using git rebase -i.</description></item>
 <item><title>Master Cleaning lady (Level 10)</title><description>Remove untracked files from the working tree with git clean</description></item>
-<item><title>Master Cleaning lady (Level 9)</title><description>Remove untracked files from the working tree with git clean</description></item>
 </channel></rss>
