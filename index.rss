@@ -2,6 +2,7 @@
 <title>Kamil Stepczuk's Git Achievements</title>
 <description></description>
 <link></link>
+<item><title>Architect (Level 5)</title><description>Created a new repository with git init.</description></item>
 <item><title>Master Socialite (Level 10)</title><description>pushed a branch to a remote repository using git push</description></item>
 <item><title>Merchant (Level 4)</title><description>Added an external repository with git remote add.</description></item>
 <item><title>Master Carpenter (Level 18)</title><description>Custom git hooks are installed which help catch issues before they are shared.</description></item>
@@ -21,5 +22,4 @@
 <item><title>Seamstress (Level 6)</title><description>amended a commit with git commit --amend.</description></item>
 <item><title>Collector (Level 6)</title><description>Fetches named heads or tags from another repository with git fetch</description></item>
 <item><title>Apprentice Merchant (Level 3)</title><description>Added an external repository with git remote add.</description></item>
-<item><title>Master Historian (Level 9)</title><description>Investigate the commit log using git log.</description></item>
 </channel></rss>
